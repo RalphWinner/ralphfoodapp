@@ -1,0 +1,27 @@
+<!-- fragment_contact.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnCallChef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call the chef"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="callChef" />
+
+    <Button
+        android:id="@+id/btnEmailChef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email to Chef"
+        android:layout_below="@id/btnCallChef"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="emailChef" />
+
+
+</RelativeLayout>

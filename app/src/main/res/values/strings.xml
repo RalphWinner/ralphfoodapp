@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RalphFoodiePal</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="add_meal_plan">Add Meal Plan</string>
+    <string name="add_details">test</string>
+    <string name="profile_image">my profil picture</string>
+</resources>
